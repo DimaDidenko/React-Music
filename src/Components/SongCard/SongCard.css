@@ -1,0 +1,92 @@
+.songs-item {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: var(--family);
+    position: relative;
+}
+
+.songs-item:hover{
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+.songs-item:hover .songs-item__music-name{
+    color: blue;
+}
+
+.songs-item:last-child {
+    margin-bottom: 0;
+}
+.songs-item__figure {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.songs-item__img {
+    margin-right: 0.8rem;
+}
+.songs-item__discription {
+    width: 100%;
+    border-bottom: 1px solid #3d3d3d;
+    padding-bottom: 21px;
+}
+.songs-item__music-name {
+    font-size: 16px;
+    color: #fff;
+}
+.songs-item__singer {
+    font-size: 14px;
+    line-height: 1.7rem;
+    color: #7d7d7d;
+}
+.songs-item__music-time {
+    margin-top: -37px;
+    color: #7d7d7d;
+}
+
+.song__overlay{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    width: 16%;
+    height: 100%;
+}
+
+.songs-item:hover .song__overlay{
+    display: flex;
+}
+
+.song__svg{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.song__svg:hover{
+    width: 3rem;
+    height: 3rem;
+    transition: 0.5s;
+}
+
+@media (min-width: 480px) {
+    .songs-header__list {
+        padding: 0 50px;
+    }
+}
+@media (min-width: 768px) {
+    .songs-header__list {
+        padding: 0 80px;
+    }
+    .songs-list {
+        padding: 0 50px;
+    }
+}
+@media (min-width: 1020px) {
+    .songs-header__list {
+        padding: 0 100px;
+    }
+    .songs-list {
+        padding: 0 50px;
+    }
+}

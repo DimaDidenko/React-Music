@@ -1,0 +1,25 @@
+.aside {
+    width: 12.5rem;
+    background-color: var(--serch);
+    box-shadow: 0.625rem 0 0.625rem 0 rgba(0, 0, 0, 0.15);
+    font-family: var(--family);
+    position: absolute;
+    top: 0;
+    left: -62.5rem;
+    min-height: 100%;
+    transition: 1s;
+    z-index: 2;
+    padding-top: 1.5rem;
+}
+
+.aside-show {
+    top: 0;
+    left: 0;
+}
+@media (min-width: 768px) {
+    .aside {
+        position: static;
+        width: 20%;
+        min-height: 100vh;
+    }
+}

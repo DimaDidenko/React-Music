@@ -1,0 +1,16 @@
+.content {
+    padding: 1.625rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+    height: 81vh;
+}
+
+::-webkit-scrollbar { width: 3px; height: 3px;}
+/*::-webkit-scrollbar-button {  background-color: var(--red); }*/
+::-webkit-scrollbar-track {  background-color: var(--red);}
+::-webkit-scrollbar-track-piece { background-color: #666;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: var(--red); border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #666;}
+::-webkit-resizer { background-color: var(--red);}

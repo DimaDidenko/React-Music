@@ -1,0 +1,36 @@
+.wrapper {
+    background-color: #282828;
+}
+.container {
+    max-width: 64rem;
+    min-width: 20rem;
+    margin: auto;
+    /*padding: 0 1rem;*/
+    background-color: var(--main);
+    position: relative;
+    box-shadow: 0 0 0.625rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+    }
+}
+
+.main {
+    /*padding: 0 1rem;*/
+    position: relative;
+}
+
+.loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (min-width: 768px) {
+    .main {
+        flex-basis: 80%;
+    }
+}

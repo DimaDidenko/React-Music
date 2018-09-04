@@ -1,0 +1,13 @@
+@import '../var.css';
+
+.logo {
+    margin-bottom: 1.8rem;
+    display: block;
+}
+
+.title {
+    font-size: var(--big);
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--white);
+}
