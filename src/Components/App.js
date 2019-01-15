@@ -98,9 +98,9 @@ class App extends Component {
     };
 
     sidebarChange = () => {
-            this.setState(prev => ({
-                sidebarShow: !prev.sidebarShow
-            }))
+        this.setState(prev => ({
+            sidebarShow: !prev.sidebarShow
+        }))
     };
 
     addFavourite = ({target}) => {
